@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<div style="text-align: justify">
+Blog này là nơi để ghi lại mấy suy nghĩ và trải nghiệm của mình. Mình sẽ lưu lại cả những điều tốt đẹp và vui vẻ, lẫn những niềm đau
+và đắng cay. Bởi đối với mình, nếu không trải qua những tổn thương, thì làm sao có thể thấu hiểu trái tim, và để bản thân cố không bao
+giờ làm tổn thương người khác.
+</div>
