@@ -21,12 +21,10 @@
 title: Hieu Nguyen's Blog
 email: hieu.nm151336@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Blog này là nơi để ghi lại mấy suy nghĩ và trải nghiệm của mình. Mình sẽ lưu lại cả những điều tốt đẹp và vui vẻ, lẫn những niềm đau
- và đắng cay. Bởi đối với mình, nếu không trải qua những tổn thương, thì làm sao có thể thấu hiểu trái tim, và để bản thân cố không bao
- giờ làm tổn thương người khác.
+  Welcome to my blog!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+twitter_username: jekyllrb
 linkedin_username: hieuproxo
 github_username:  hieuproxo
 facebook_username: hieuproxo
@@ -34,8 +32,8 @@ twitter_username: hieuproxo
 instagram_username: hieuproxo
 youtube_username: hieuproxo
 
-author: Hieu Nguyen
-copyright: Hieu Nguyen
+author: Hieu Nguyen Minh
+copyright: Hieu Nguyen Minh
 
 # Build settings
 # theme: minima
