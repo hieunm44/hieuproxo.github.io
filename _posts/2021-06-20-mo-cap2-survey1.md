@@ -5,6 +5,9 @@ date: 2021-06-20 23:26:18 +0700
 category: Motion Capture
 ---
 
+
+
+
 [T. B. Moeslund and E. Granum, “A survey of computer vision-basedhuman motion capture, ”Computer  vision  and  image  understanding, vol. 81, no. 3, pp. 231–268, 2001.](https://doi.org/10.1006/cviu.2000.0897)
 
 * A comprehensive survey of CV-based human motion capture literature from 1980 to 2000
@@ -45,4 +48,4 @@ motion capture systems.
 ## 2.2 A Taxonomy Based on Functionalities
 * Functional structure of a comprehensive motion capture system:
 
- \(\mathbf{x} = [x_1, x_2, x_3] \) 
+$$ x=1 $$
