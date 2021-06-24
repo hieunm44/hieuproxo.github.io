@@ -9,30 +9,28 @@ layout: default
 
   {{ content }}
 
-  {%- if posts.size > 0 -%}
-    {% for category in site.categories %}
-    {% if category[0]=="Literature Review" or category[0]=="Geometric Deep Learning" or category[0]=="Motion Capture" %} 
-      {% if category[0]=="Literature Review"%}
-      <h2 style="font-size: 30px; margin: 0 0 0 0;"> {{ category[0] }}</h2>
-      {% else %}
-      <h2 style="font-size: 30px; margin: -10px 0 0 0;"> {{ category[0] }}</h2>
-      {% endif %}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in category[1] -%}
-      <li>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  {% for category in site.categories %}
+  {% if category[0]=="Literature Review" or category[0]=="Geometric Deep Learning" or category[0]=="Motion Capture" %} 
+    {% if category[0]=="Literature Review"%}
+    <h2 style="font-size: 30px; margin: 0 0 0 0;"> {{ category[0] }}</h2>
+    {% else %}
+    <h2 style="font-size: 30px; margin: -10px 0 0 0;"> {{ category[0] }}</h2>
     {% endif %}
-    {% endfor %}
-  {%- endif -%}
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in category[1] -%}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {% endif %}
+  {% endfor %}
 
 </div>

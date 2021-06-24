@@ -9,14 +9,13 @@ layout: default
 
   {{ content }}
 
-  <div class="categories">
-    {% for category in site.categories %}
-    {% if category[0]=="Inuyasha" or category[0]=="Adventure Time" or category[0]=="Phineas and Ferb" %} 
-      {% if category[0]=="Inuyasha"%}
-      <h2 style="font-size: 30px; margin: 0 0 0 0;"> {{ category[0] }}</h2>
-      {% else %}
-      <h2 style="font-size: 30px; margin: -10px 0 0 0;"> {{ category[0] }}</h2>
-      {% endif %}
+  {% for category in site.categories %}
+  {% if category[0]=="Inuyasha" or category[0]=="Adventure Time" or category[0]=="Phineas and Ferb" %} 
+    {% if category[0]=="Inuyasha"%}
+    <h2 style="font-size: 30px; margin: 0 0 0 0;"> {{ category[0] }}</h2>
+    {% else %}
+    <h2 style="font-size: 30px; margin: -10px 0 0 0;"> {{ category[0] }}</h2>
+    {% endif %}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in category[1] -%}
@@ -31,8 +30,7 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
-    {% endif %}
-    {% endfor %}
-  </div>
+  {% endif %}
+  {% endfor %}
 
 </div>

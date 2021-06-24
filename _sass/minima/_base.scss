@@ -107,11 +107,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+   color: darken($brand-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: mediumblue;
     text-decoration: underline;
   }
 
@@ -175,12 +175,12 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //margin-right: auto;
+  //margin-left: auto;
+  padding-right: 5%;
+  padding-left: 5%;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -209,12 +209,13 @@ pre {
  */
 
 .svg-icon {
-    margin-top: 5px;
+    margin-top: 4px;
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
+    //fill: #{$grey-color};
+    //padding-right: 5px;
+    fill: black;
     vertical-align: text-top;
 }
 
@@ -245,7 +246,7 @@ table {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    //background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
