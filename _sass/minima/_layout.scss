@@ -188,6 +188,7 @@
 
 .post-list {
   list-style: none;
+  margin-left: 0;
 
   > li {
     margin-bottom: 5px;
@@ -205,7 +206,25 @@
   display: block;
 }
 
+.post-list-left {
+  list-style: none;
+  margin-left: 0;
 
+  > li {
+    margin-bottom: 0;
+  }
+}
+
+.post-meta-left {
+  font-size: 12px;
+  color: grey;
+}
+
+.post-link-left {
+  font-size: 16px;
+  margin-bottom: -7px;
+  display: block;
+}
 
 /**
  * Posts
@@ -239,7 +258,7 @@
 
 .home-col-1 {
   position: absolute;
-  left: 5%;
+  left: 7.5%;
   width: calc(15%);
 }
 
@@ -252,6 +271,6 @@
 
 .home-col-3 {
   position: absolute;
-  right: 5%;
+  right: 7.5%;
   width: calc(15%);
 }

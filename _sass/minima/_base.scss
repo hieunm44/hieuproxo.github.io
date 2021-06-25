@@ -111,7 +111,6 @@ a {
   }
 
   &:hover {
-    color: mediumblue;
     text-decoration: underline;
   }
 
@@ -179,8 +178,8 @@ pre {
   //max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   //margin-right: auto;
   //margin-left: auto;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -215,7 +214,6 @@ pre {
     display: inline-block;
     //fill: #{$grey-color};
     //padding-right: 5px;
-    fill: black;
     vertical-align: text-top;
 }
 
