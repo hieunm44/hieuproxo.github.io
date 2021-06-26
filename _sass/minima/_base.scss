@@ -108,9 +108,9 @@ a {
   letter-spacing: 0;
   line-height: 120%;
 
-  &:visited {
-   color: darken($brand-color, 15%);
-  }
+  // &:visited {
+  //  color: darken($brand-color, 15%);
+  // }
 
   &:hover {
     text-decoration: underline;
