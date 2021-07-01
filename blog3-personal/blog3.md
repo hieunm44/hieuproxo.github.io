@@ -1,4 +1,4 @@
 ---
 layout: home-personal
-title: Personal Blog
+title: Góc cá nhân
 ---

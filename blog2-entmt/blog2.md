@@ -1,6 +1,6 @@
 ---
 layout: home-entmt
-title: Entertainment
+title: Góc cảm nhận
 categories: 
 ---
 
